@@ -1,0 +1,489 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    background: rgb(55, 134, 2);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(44, 173, 4);
+    border-radius: 15px;
+}
+
+.iconsA {
+    border-radius: 100%;
+    background-size: 20%;
+}
+
+.icons2 {
+    margin-left: 12px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background: rgba(0, 0, 0, 75%);
+    height: 4em;
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+header li {
+    display: inline-block;
+}
+
+#areaR {
+    margin-left: 1.6em;
+    border-left: 1px dashed rgba(255,255,255,.2);
+}
+
+#logo {
+    width: 10em;
+    vertical-align: middle;
+}
+
+#banner {
+    display: flex;
+    flex-flow: column;
+    background-image: url(https://www.cotemig.com.br/static/banner/desktopimagefull-1650984096573.png);
+    background-size:100%;
+    width: 100%;
+    height: 32.6em;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding-left: 23em;
+    margin-top: -5vh;
+
+}
+
+#banner h1 {
+    margin: 0;
+    color: #fff;
+    margin: 0;
+    padding-top: 11%;
+    font-size: 2.4em;
+}
+
+#banner p {
+    margin: 0;
+    color: #fff;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+#banner a {
+    width: 20em;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .875em;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 8px;
+    background: #40aa0b;
+}
+
+header p {
+    display: inline-block;
+    padding: 0.7em 1.25em;
+    font-size: .875em;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.iconsL {
+    margin-left: 13px;
+}
+
+main p {
+    color: #424242;
+}
+
+main .boxs .imP {
+    max-width: 15em;
+    height: 9.4em;
+}
+
+#boxs1 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.boxs {
+    border: black 0px solid;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.imP {
+    border-radius: 10px 10px 0 0;
+}
+
+main .boxs .shars {
+    width: 50px;
+    border-radius: 12px;
+    height: 50px;
+}
+
+.boxs p {
+    margin-left: 13px;
+    font-size: 13px;
+    color: black;
+}
+
+.texto {
+    display: inline-flexbox;
+    font-size: .80em;
+    text-align: left;
+    color: #424242;
+}
+
+main li {
+    display: flex;
+    flex-direction: row;
+    margin-left: -40px;
+    border: solid gray;
+    padding: 10px;
+    padding-right: 17px;
+    border-width: 0px;
+    box-shadow: 0px 2px 8px rgb(0 0 0 / 10%);
+}
+
+main ul {
+    border-collapse: collapse;
+}
+
+.li1 {
+    margin-top: -20px;
+}
+
+.li2 {
+    border-radius: 0px 0px 10px 10px;
+}
+
+.textim {
+    margin-top: -100px;
+    display: flex;
+    padding: .80em;
+    color: white;
+    text-align: left;
+    font-size: .90em;
+}
+
+.liV {
+    border-radius: 0px 0px 10px 10px;
+}
+
+.st2 {
+    padding: .06em;
+    padding-left: 1em;
+}
+
+.s1 {
+    padding-right: 9px;
+}
+
+#unidades img {
+    width: 20em;
+    height: 9em;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#unidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.imgU {
+    padding: 10px;
+}
+
+.un1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+
+}
+
+.un1 h4 {
+    font-size: .98em;
+    margin-top: -4px;
+    color: #424242;
+    text-align: left;
+}
+
+.un1 p {
+    font-size: .80em;
+    margin-top: -8px;
+    color: #424242;
+    padding-left: 30px;
+}
+
+#ligar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+#ligar img {
+    width: 70px;
+}
+
+#ligar a {
+    color: #40aa0b;
+    font-size: 2.3em;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#noticias {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#noticias p {
+    margin-left: 300px;
+    font-size: 15px;
+}
+
+#noticias h1 {
+    padding-left: 22%;
+}
+
+#noticiasbox img {
+    border-radius: 10px;
+    width: 14.7em;
+    margin-right: 17px;
+}
+
+#org1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 17em;
+}
+
+#org2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -14vh;
+    color: white;
+    font-size: .80em;
+}
+
+#org2 h3 {
+    width: 282.23px;
+    padding: 10px;
+    text-align: left;
+    margin: 8px;
+}
+
+#org2 h3 .txt3 {
+    margin-right: -15vh;
+}
+
+#org3 p {
+    color: white;
+    width: 282.23px;
+    padding: 10px;
+    text-align: left;
+    margin: 8px;
+    font-size: .70em;
+    font-style: italic;
+}
+
+#org3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -3.2vh;
+    font: italic;
+}
+
+footer {
+    margin-top: 8vh;
+    width: 100%;
+    background: #151515;
+    height: 28.4em;
+    color: white;
+    bottom: 0;
+}
+
+#fouter1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer h5 {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+footer ul {
+    padding-right: 20px;
+}
+
+footer li {
+    color: #bdbdbd;
+}
+
+footer a {
+    display: block;
+    width: 100%;
+    margin: 1.25em 0;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .875em;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 8px;
+    background: #40aa0b;
+}
+
+footer hr {
+    width: 60%
+}
+
+.ul3 {
+    width: 500px;
+}
+
+#fouter2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: 1px solid #2e2e2e;
+    width: 60%;
+}
+
+#fouter3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#fouter2 h5 {
+    font-size: .90em;
+}
+
+.ulg {
+    margin-top: -2vh;
+}
+
+#ul2 {
+    margin-right: 100px;
+}
+
+#ul2 li {
+    color: #fff;
+    font-size: .80em;
+}
+
+.iconsR img {
+    width: 26px;
+}
+
+.lidiv {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#fouter2 p {
+    display: block;
+}
+
+.fbicon {
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    background: url(https://cotemig.com.br/assets/img/icons/fb-icon.svg) #4460a0 no-repeat center center;
+}
+
+.insticon {
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    background: url(https://cotemig.com.br/assets/img/icons/insta.svg) #fff no-repeat center center;
+}
+
+.linicon {
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    background: url(https://cotemig.com.br/assets/img/icons/linkedin.svg) #007ab9 no-repeat center center;
+}
+
+.twicon {
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    background: url(https://cotemig.com.br/assets/img/icons/twitter.svg) #00aaec no-repeat center center;
+}
+
+#txticon {
+    display: flex;
+    flex-direction: row;
+    margin-left: -46.4em;
+    margin-top: 5em;
+}
+
+#txticon p {
+    padding-right: 33px;
+    font-size: .80em;
+    color: #424242;
+}
+
+#txticon2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 4em;
+    margin-top: 5em;
+}
+
+#txticon2 p {
+    padding-right: 33px;
+    font-size: .80em;
+    color: #424242;
+}
